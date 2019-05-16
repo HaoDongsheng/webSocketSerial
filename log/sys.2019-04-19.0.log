@@ -1,0 +1,27 @@
+2019-04-19 15:08:22,823 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-H8FS49Q with PID 10668 (D:\eclipse-workspace\webSocketSerial\target\classes started by 86139 in D:\eclipse-workspace\webSocketSerial)
+2019-04-19 15:08:22,829 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default
+2019-04-19 15:08:22,919 INFO (AbstractApplicationContext.java:581)- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f9f7dcf: startup date [Fri Apr 19 15:08:22 CST 2019]; root of context hierarchy
+2019-04-19 15:08:23,324 INFO (Version.java:21)- HV000001: Hibernate Validator 6.0.10.Final
+2019-04-19 15:08:25,307 INFO (TomcatEmbeddedServletContainer.java:87)- Tomcat initialized with port(s): 8015 (http)
+2019-04-19 15:08:25,323 INFO (DirectJDKLog.java:179)- Starting service Tomcat
+2019-04-19 15:08:25,324 INFO (DirectJDKLog.java:179)- Starting Servlet Engine: Apache Tomcat/8.5.5
+2019-04-19 15:08:25,457 INFO (DirectJDKLog.java:179)- Initializing Spring embedded WebApplicationContext
+2019-04-19 15:08:25,457 INFO (EmbeddedWebApplicationContext.java:276)- Root WebApplicationContext: initialization completed in 2538 ms
+2019-04-19 15:08:25,599 INFO (ServletRegistrationBean.java:190)- Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-19 15:08:25,603 INFO (AbstractFilterRegistrationBean.java:258)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-19 15:08:25,603 INFO (AbstractFilterRegistrationBean.java:258)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-19 15:08:25,604 INFO (AbstractFilterRegistrationBean.java:258)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-19 15:08:25,604 INFO (AbstractFilterRegistrationBean.java:258)- Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-19 15:08:25,895 INFO (RequestMappingHandlerAdapter.java:534)- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f9f7dcf: startup date [Fri Apr 19 15:08:22 CST 2019]; root of context hierarchy
+2019-04-19 15:08:25,972 INFO (AbstractHandlerMethodMapping.java:543)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-19 15:08:25,974 INFO (AbstractHandlerMethodMapping.java:543)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-19 15:08:25,997 INFO (AbstractUrlHandlerMapping.java:354)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 15:08:25,998 INFO (AbstractUrlHandlerMapping.java:354)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 15:08:26,049 INFO (AbstractUrlHandlerMapping.java:354)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-19 15:08:26,221 INFO (ServerEndpointExporter.java:143)- Registering @ServerEndpoint class: class org.hds.WebSocket.MyWebSocket
+2019-04-19 15:08:26,238 INFO (MBeanExporter.java:431)- Registering beans for JMX exposure on startup
+2019-04-19 15:08:26,261 INFO (DirectJDKLog.java:179)- Initializing ProtocolHandler ["http-nio-8015"]
+2019-04-19 15:08:26,277 INFO (DirectJDKLog.java:179)- Starting ProtocolHandler [http-nio-8015]
+2019-04-19 15:08:26,295 INFO (DirectJDKLog.java:179)- Using a shared selector for servlet write/read
+2019-04-19 15:08:26,325 INFO (TomcatEmbeddedServletContainer.java:185)- Tomcat started on port(s): 8015 (http)
+2019-04-19 15:08:26,329 INFO (StartupInfoLogger.java:57)- Started Application in 4.241 seconds (JVM running for 4.739)
